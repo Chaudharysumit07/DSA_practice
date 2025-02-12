@@ -1,7 +1,7 @@
 # date 12 feb 2025
 # Question link : https://leetcode.com/problems/max-sum-of-a-pair-with-equal-sum-of-digits/description/
 
-# my solution :
+# my solution : Time Complexity = O(N log M)  where N is the number of elements in nums and where M is the max value in nums ; Space Complexity : O(N)
 
 class Solution:
     def sumOfDigits(self, num: int) -> int:
